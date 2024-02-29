@@ -1,7 +1,7 @@
 import Character from '../Character';
 
 test('checking the Character', () => {
-  const character = {name: 'Oleg', type: 'Bowerman', health: 100, level: 1, attack: undefined, defence: undefined};
+  const character = {name: 'Oleg', type: 'Bowerman', health: 100, level: 1, attack: undefined, defence: undefined};
   // result = new Character('Oleg', 'Bowerman');
   expect(new Character('Oleg', 'Bowerman')).toEqual(character);
 });

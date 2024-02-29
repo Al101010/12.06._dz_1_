@@ -20,4 +20,4 @@ export default class Character {
         this.attack = undefined;
         this.defence = undefined;
     }
-};
+}
